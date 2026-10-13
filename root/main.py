@@ -18,6 +18,10 @@ four_room_choices = ["1", "2", "3", "4"]
 
 
 def show_map():
+    """
+    Prints the map of the school
+    """
+
     print("\n=============== SCHOOL MAP ==================")
     print("        [ Main Entrance ]     ")
     print("                |             ")
@@ -29,6 +33,9 @@ def show_map():
     print("                |             ")
     print("           [Cafeteria]--[ Gym ]--[ Storage ]")
     print("===============================================\n")
+
+
+
 
 
 print("You fell asleep in the school library!")
